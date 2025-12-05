@@ -1,65 +1,80 @@
+<!-- Banner Image -->
 <p align="center">
-  <img src="./Media/hovercraft_banner.png" width="100%" alt="Hovercraft Banner">
+  <img 
+    src="https://github.com/user-attachments/assets/e6d67aaa-69e6-41b3-bd67-8eac4cf06443"
+    alt="Hovercraft Banner"
+    width="700"
+  />
 </p>
 
-<h1 align="center">🚑 Multi-Terrain Rescue &amp; Surveillance Hovercraft</h1>
+<h1 align="center">🚑 Multi-Terrain Rescue & Surveillance Hovercraft</h1>
 
 <p align="center">
-  <em>Goes where boats, drones &amp; robots can’t</em>
+  <em>Goes where boats, drones & robots can’t</em>
 </p>
 
 ---
 
-## 🎬 Animated Intro
-
-<p align="center">
-  <img src="./Media/hovercraft_animation.gif" width="750" alt="Hovercraft Animation Preview">
-</p>
-
-<p align="center">
-  🔗 <a href="https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/docs/hovercraft_animation.html" target="_blank">
-  Click here to view full animation</a>
-</p>
+## 📌 Table of Contents
+- [Overview](#-overview)
+- [Key Features](#-key-features)
+- [Demo Video](#-demo-video)
+- [Testing](#-testing)
+- [Repository Structure](#-repository-structure)
+- [Applications](#-applications)
+- [Team](#-team)
+- [Contact](#-contact)
 
 ---
 
 ## 🧾 Overview
+A lightweight, portable amphibious hovercraft built for emergency response and multi-terrain mobility.  
+It provides access to environments where **boats, drones & wheeled robots fail**, such as:
 
-This project focuses on the development of a lightweight, portable amphibious hovercraft designed for:
-
-- Disaster response &amp; emergency deployment  
-- Flooded or debris-blocked zones where boats fail  
-- Indoor &amp; under-debris surveillance where drones cannot fly  
-- Delivery of medical essentials and reconnaissance  
+- Disaster response & emergency deployment
+- Flooded or debris-blocked areas
+- Indoor & under-debris surveillance where drones cannot fly
+- Delivery of medical supplies in difficult terrain
+- Military forward-recon applications & rescue planning
 
 ---
 
 ## 🔧 Key Features
-
-- Multi-surface mobility: water, debris, sand, mud, rubble, indoor floors  
-- Modular camera &amp; sensor payload system  
-- Compact &amp; safe — no exposed propellers  
-- Supports surveillance and emergency delivery  
-- Highly maneuverable in confined rescue environments  
+- Multi-surface mobility: **water, debris, sand, mud, rubble, indoor floors**
+- **Modular payload system** for camera, sensors & delivery mechanism
+- **Compact & safe** — no exposed propellers
+- Works in **narrow spaces & confined rescue environments**
+- **Portable & rapidly deployable**
+- Can support **surveillance + emergency supply delivery**
 
 ---
 
 ## 📹 Demo Video
+🎥 *Test footage available at:*  
+👉 `./Media/hovercraft_demo.mp4`
 
-Test footage available in: `./Media/hovercraft_demo.mp4`  
-
-_(GitHub will show it as a file link; on GitHub Pages or a website you can embed it in a video tag.)_
+_(GitHub renders it as a downloadable link. For websites you can embed it in a video tag.)_
 
 ---
 
-## 🧪 Testing
+## 🧪 Testing Progress
 
-| Test Scenario        | Status         |
-|----------------------|----------------|
-| Water traversal      | ✔ Successful   |
-| Debris ground        | ✔ Stable       |
-| Indoor smooth floor  | ✔ Tested       |
-| Rough terrain / Mud  | ✔ Field simulation |
-| Payload delivery     | ⏳ In progress  |
+| Test Scenario            | Status            |
+|--------------------------|-------------------|
+| Water traversal          | ✔ Successful      |
+| Debris ground            | ✔ Stable          |
+| Indoor smooth floor      | ✔ Tested          |
+| Rough terrain / Mud      | ✔ Field simulation |
+| Payload delivery         | ⏳ In progress     |
+
+---
+
+## 🔍 Applications
+
+- Flood scouting & rapid rescue decision-making
+- Medical delivery during disasters
+- Remote surveillance & research monitoring
+- Under-debris inspection for earthquake rescue
+- Education, engineering R&D and prototyping
 
 ---
