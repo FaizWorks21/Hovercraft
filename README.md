@@ -3,7 +3,7 @@
   <img 
     src="https://github.com/user-attachments/assets/e6d67aaa-69e6-41b3-bd67-8eac4cf06443"
     alt="Hovercraft Banner"
-    width="700"
+    width="500"
   />
 </p>
 
