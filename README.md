@@ -30,11 +30,11 @@
 A lightweight, portable amphibious hovercraft built for emergency response and multi-terrain mobility.  
 It provides access to environments where **boats, drones & wheeled robots fail**, such as:
 
-- Disaster response & emergency deployment
-- Flooded or debris-blocked areas
-- Indoor & under-debris surveillance where drones cannot fly
-- Delivery of medical supplies in difficult terrain
-- Military forward-recon applications & rescue planning
+- Disaster response & emergency deployment  
+- Flooded or debris-blocked areas  
+- Indoor & under-debris surveillance where drones cannot fly  
+- Delivery of medical supplies in difficult terrain  
+- Military forward-recon applications & rescue planning  
 
 ---
 
@@ -82,8 +82,8 @@ It provides access to environments where **boats, drones & wheeled robots fail**
 
 ## 👥 Team
 
-- **Mohd Faiz** – Mechanical design, control & integration  
-- **Riya Verma** – Electronics, testing & documentation  
+- **[Mohd Faiz](https://www.linkedin.com/in/mohd-faiz-710661353/)** – Mechanical design, control & system integration  
+- **[Riya Verma](https://www.linkedin.com/in/riya-verma-641230317/)** – Electronics, testing & documentation  
 
 ---
 
@@ -94,3 +94,4 @@ _For collaboration, research, or deployment queries:_
 - **Email (Faiz):** `2k23.ece2311964@gmail.com`  
 - **Email (Riya):** `riyaverma0362@gmail.com`  
 
+---
