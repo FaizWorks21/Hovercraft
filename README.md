@@ -1,69 +1,159 @@
-<div align="center">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hovercraft Animation</title>
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        background: linear-gradient(#0e0e0e, #1b1b1b);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        font-family: monospace;
+    }
 
-# 🚑 Multi-Terrain Rescue & Surveillance Hovercraft  
-### _Goes where boats, drones & robots can’t_
+    .container {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-A lightweight, portable **amphibious hovercraft** for **disaster response, surveillance, and emergency delivery** in inaccessible terrains.
+    /* ---- TYPEWRITER TEXT ---- */
+    .typing-text {
+        font-size: 2.3rem;
+        font-weight: 700;
+        color: #ff8b00;
+        border-right: 4px solid #ff8b00;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 0;
+        animation: typing 4s steps(40, end) forwards, blink .6s step-end infinite;
+        margin-bottom: 40px;
+    }
 
----
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 700px }
+    }
 
-<!-- 🔄 Hovercraft Animation (replace with your own GIF later) -->
-<img src="assets/hovercraft_animation.gif" alt="Hovercraft Animation" width="500"/>
+    @keyframes blink {
+        from, to { border-color: transparent }
+        50% { border-color: #ff8b00 }
+    }
 
-> _Prototype developed at **PSIT Kanpur** for the **YUKTI Innovation Challenge**_
+    /* ---- WATER WAVES ---- */
+    .water {
+        position: absolute;
+        bottom: 0;
+        width: 160%;
+        height: 100px;
+        background: repeating-linear-gradient(
+            -45deg,
+            #4fa3ff,
+            #4fa3ff 12px,
+            #3686e0 12px,
+            #3686e0 24px
+        );
+        animation: wave 6s linear infinite;
+    }
 
+    @keyframes wave {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-80px); }
+    }
+
+    /* ---- HOVERCRAFT ---- */
+    .hovercraft {
+        position: absolute;
+        bottom: 55px;
+        left: -200px;
+        width: 160px;
+        height: 70px;
+        background: #ff7b00;
+        border-radius: 50px;
+        box-shadow: 0 8px 15px rgba(0,0,0,0.5);
+        animation: move 10s linear infinite;
+    }
+
+    .hovercraft::before {
+        content: "";
+        position: absolute;
+        inset: 8px;
+        border-radius: 40px;
+        border: 3px solid #ffffff;
+    }
+
+    .fan {
+        position: absolute;
+        right: -25px;
+        top: 10px;
+        width: 40px;
+        height: 40px;
+        border: 3px solid #000;
+        border-radius: 50%;
+        background: #e9e9e9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fan span {
+        position: absolute;
+        width: 3px;
+        height: 80%;
+        background: #000;
+        animation: spin 0.15s linear infinite;
+    }
+
+    .fan span:nth-child(2) { transform: rotate(90deg); }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+
+    .skirt {
+        position: absolute;
+        bottom: -14px;
+        left: 10px;
+        right: 10px;
+        height: 20px;
+        background: #111;
+        border-radius: 0 0 50px 50px;
+        animation: hover 1.3s ease-in-out infinite;
+    }
+
+    @keyframes hover {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(3px); }
+    }
+
+    @keyframes move {
+        0% { transform: translateX(0); }
+        50% { transform: translateX(700px) translateY(-6px); }
+        100% { transform: translateX(1400px); }
+    }
+
+</style>
+</head>
+
+<body>
+<div class="container">
+    <div class="typing-text">Goes where boats, drones & robots can’t</div>
+    <div class="hovercraft">
+        <div class="fan">
+            <span></span>
+            <span></span>
+        </div>
+        <div class="skirt"></div>
+    </div>
+    <div class="water"></div>
 </div>
-
----
-
-## 📌 Overview
-
-During floods, building collapse, shallow-water disasters and debris-filled zones, **traditional rescue tools fail**:
-
-- Boats cannot move in **shallow / debris** water  
-- Drones struggle **indoors, under rubble or bad weather**  
-- Wheeled robots get stuck in **mud, sand, rubble**  
-- Human entry is **slow and high-risk**
-
-This project presents a **multi-terrain hovercraft** that can glide over:
-
-> 🌊 Water · 🪵 Debris · 🏜 Sand · 🧱 Rubble · 🧊 Frozen surfaces · 🏚 Indoor floors  
-
-It is designed to support **rescue scouting, surveillance, under-debris inspection, and emergency delivery**.
-
----
-
-## ✨ Key Features
-
-- 🧭 **Multi-Terrain Mobility**  
-  Operates on water, mud, sand, rough ground, tiles & narrow indoor spaces.
-
-- 👁️ **Surveillance-Ready**  
-  Supports **FPV camera**, onboard lights and sensor payloads for live monitoring.
-
-- 💊 **Emergency Delivery Capable**  
-  Can carry **small medical packages / supplies** through flooded or blocked areas.
-
-- 🧩 **Modular Payload Bay**  
-  Swappable mounts for **camera, gas sensors, thermal sensors, speaker, medicine capsule**.
-
-- 🪶 **Lightweight & Portable**  
-  Can be **carried and deployed quickly** by a single responder.
-
-- 🛡️ **Safe for Crowds & Indoors**  
-  No wheels or exposed propellers touching the ground.
-
----
-
-## 🎥 Demo & Media
-
-### ▶️ Prototype Test Video
-
-> Add your real hovercraft video file in the repo, e.g. `media/hovercraft_demo.mp4`.
-
-```html
-<!-- Embed in README (GitHub will show as a link, but works on GitHub Pages) -->
-<video width="640" controls>
-  <source src="media/hovercraft_demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+</body>
+</html>
