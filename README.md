@@ -49,22 +49,24 @@ It provides access to environments where **boats, drones & wheeled robots fail**
 ---
 
 ## 📹 Demo Video
-🎥 *Test footage available at:*  
-👉 `./Media/hovercraft_demo.mp4`
 
-_(GitHub renders it as a downloadable link. For websites you can embed it in a video tag.)_
+<p align="center">
+  <video src="./Media/hovercraft_demo.mp4" controls width="700"></video>
+  <br>
+  <em>Multi-Terrain Hovercraft Test Run</em>
+</p>
 
 ---
 
 ## 🧪 Testing Progress
 
-| Test Scenario            | Status            |
-|--------------------------|-------------------|
-| Water traversal          | ✔ Successful      |
-| Debris ground            | ✔ Stable          |
-| Indoor smooth floor      | ✔ Tested          |
+| Test Scenario            | Status             |
+|--------------------------|--------------------|
+| Water traversal          | ✔ Successful       |
+| Debris ground            | ✔ Stable           |
+| Indoor smooth floor      | ✔ Tested           |
 | Rough terrain / Mud      | ✔ Field simulation |
-| Payload delivery         | ⏳ In progress     |
+| Payload delivery         | ⏳ In progress      |
 
 ---
 
@@ -77,3 +79,18 @@ _(GitHub renders it as a downloadable link. For websites you can embed it in a v
 - Education, engineering R&D and prototyping
 
 ---
+
+## 👥 Team
+
+- **Mohd Faiz** – Mechanical design, control & integration  
+- **Riya Verma** – Electronics, testing & documentation  
+
+---
+
+## 📫 Contact
+
+_For collaboration, research, or deployment queries:_
+
+- **Email (Faiz):** `2k23.ece2311964@gmail.com`  
+- **Email (Riya):** `riyaverma0362@gmail.com`  
+
