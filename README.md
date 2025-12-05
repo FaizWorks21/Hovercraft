@@ -20,7 +20,6 @@
 - [Key Features](#-key-features)
 - [Demo Video](#-demo-video)
 - [Testing](#-testing)
-- [Repository Structure](#-repository-structure)
 - [Applications](#-applications)
 - [Team](#-team)
 - [Contact](#-contact)
