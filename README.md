@@ -26,7 +26,7 @@
 
 ---
 
-## 🧾 Overview
+##  Overview
 A lightweight, portable amphibious hovercraft built for emergency response and multi-terrain mobility.  
 It provides access to environments where **boats, drones & wheeled robots fail**, such as:
 
@@ -38,7 +38,7 @@ It provides access to environments where **boats, drones & wheeled robots fail**
 
 ---
 
-## 🔧 Key Features
+##  Key Features
 - Multi-surface mobility: **water, debris, sand, mud, rubble, indoor floors**
 - **Modular payload system** for camera, sensors & delivery mechanism
 - **Compact & safe** — no exposed propellers
@@ -48,7 +48,7 @@ It provides access to environments where **boats, drones & wheeled robots fail**
 
 ---
 
-## 📹 Demo Video
+##  Demo Video
 
 <p align="center">
   <video src="./Media/hovercraft_demo.mp4" controls width="700"></video>
@@ -58,7 +58,7 @@ It provides access to environments where **boats, drones & wheeled robots fail**
 
 ---
 
-## 🧪 Testing Progress
+##  Testing Progress
 
 | Test Scenario            | Status             |
 |--------------------------|--------------------|
@@ -70,7 +70,7 @@ It provides access to environments where **boats, drones & wheeled robots fail**
 
 ---
 
-## 🔍 Applications
+##  Applications
 
 - Flood scouting & rapid rescue decision-making
 - Medical delivery during disasters
@@ -80,14 +80,14 @@ It provides access to environments where **boats, drones & wheeled robots fail**
 
 ---
 
-## 👥 Team
+##  Team
 
 - **[Mohd Faiz](https://www.linkedin.com/in/mohd-faiz-710661353/)** – Mechanical design, control & system integration  
 - **[Riya Verma](https://www.linkedin.com/in/riya-verma-641230317/)** – Electronics, testing & documentation  
 
 ---
 
-## 📫 Contact
+##  Contact
 
 _For collaboration, research, or deployment queries:_
 
